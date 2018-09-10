@@ -19,6 +19,7 @@ h3{
 	font-family: 'PT Sans', sans-serif;
 	font-size: 15px;
 	font-weight: bold;
+	text-transform: uppercase;
 }
 ul>li>a{
 	font-family: 'Open Sans', sans-serif;
@@ -196,3 +197,83 @@ li{
 	background-color: #eeeeef;
 	padding: 50px 0;
 }
+.works__img{
+	width: 100%;
+}
+.advantages{
+	padding: 50px 0;
+}
+.advantages__grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+.advantages__img{
+	width: 80%;
+	padding: 20px 0;
+}
+.advantages h3{
+	color: #384048;
+	padding: 10px 0;
+}
+.advantages p{
+	color: #787b80;
+	font-size: 14px;
+	padding: 10px 0;
+}
+.advantages a{
+	text-decoration: none;
+	color: #50c3af;
+	font-size: 14px;
+	font-family: 'PT Sans', sans-serif;
+	padding: 10px 0;
+}
+.contact__grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 100px;
+}
+.contact{
+	background-color: #eeeeef;
+	padding: 60px 0;
+}
+.contact p{
+	color: #787b80;
+	padding: 40px 0;
+	border-top: 2px solid #c6cbd1;
+}
+.contact a{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	color: white;
+	text-decoration: none;
+	background-color: #d2d5da;
+	padding: 12px;
+	border-radius: 30px;
+	width: 75px;
+	height: 20px;
+}
+.contact a:hover{
+	background-color: #50c3af;
+}
+.contact h3{
+	display: inline-block;
+}
+.contact__send span{
+	background-image: url(../images/plane.png);
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	background-size: cover;
+	margin-right: 15px;
+}
+.contact__very span{
+	background-image: url(../images/pencil.png);
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	background-size: cover;
+	margin-right: 15px;
+}
+
+
